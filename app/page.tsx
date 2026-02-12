@@ -2,6 +2,12 @@ import Image from "next/image";
 import { ExternalLinkIcon, Github } from "lucide-react";
 
 export default function Home() {
+
+  const currentYear = new Date().getFullYear();
+  const startYear = 2019;
+  const yearsOfExperience = (currentYear - startYear) - 1;
+  
+
   const experiences = [
     {
       company: "Fresh Clinics",
@@ -212,12 +218,12 @@ export default function Home() {
           <div className="text-center lg:text-left w-full">
             <h1 className="text-4xl font-semibold leading-12">Mark Ryan D.</h1>
             <p className="text-secondary-foreground text-3xl font-semibold leading-8 mt-2">Full-Stack Software Engineer</p>
-            <p className="mt-3 text-sm">6+ years of experience | Calbayog City, Philippines</p>
+            <p className="mt-3 text-sm">{yearsOfExperience}+ years of experience | Calbayog City, Philippines</p>
           </div>
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <h2 className="text-3xl font-semibold leading-12">About Me</h2>
-          <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">6+ years</span> of experience developing scalable and reliable web applications. I specialize in both front-end and back-end development using modern technologies, with a strong focus on performance, user experience, and clean architecture.</p>
+          <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">{yearsOfExperience}+ years</span> of experience developing scalable and reliable web applications. I specialize in both front-end and back-end development using modern technologies, with a strong focus on performance, user experience, and clean architecture.</p>
           <p className="leading-8 mt-8">I’m passionate about building software that not only works well but genuinely solves problems and creates real value for users.</p>
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
