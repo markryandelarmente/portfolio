@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ExternalLinkIcon, Github } from "lucide-react";
+import { ArrowDownIcon, ExternalLinkIcon, Github } from "lucide-react";
 
 export default function Home() {
 
@@ -225,6 +225,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold leading-12">About Me</h2>
           <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">{yearsOfExperience}+ years</span> of experience developing scalable and reliable web applications. I specialize in both front-end and back-end development using modern technologies, with a strong focus on performance, user experience, and clean architecture.</p>
           <p className="leading-8 mt-8">I’m passionate about building software that not only works well but genuinely solves problems and creates real value for users.</p>
+          <button className="mt-8 px-4 py-2 text-sm bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer">Download Resume <ArrowDownIcon className="w-4 h-4 inline-block" /></button>
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <h2 className="text-3xl font-semibold leading-12">Experience</h2>
@@ -315,8 +316,8 @@ export default function Home() {
         <section className="py-10 lg:py-16 text-center">
           <h2 className="text-3xl font-semibold leading-12">Let's create awesome products!</h2>
           <p className="text-secondary-foreground mt-2 leading-8">I'm always open to discuss your project, improve your online presence, or build your next big idea.</p>
-          <a href="mailto:markryandelarmente104@gmail.com" className="mt-14 inline-block px-10 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer no-underline">Say Hello</a>
-          <div className="mt-16 flex text-center justify-center gap-x-6 lg:gap-x-10">
+          <a href="mailto:markryandelarmente104@gmail.com" className="mt-14 inline-block text-sm px-10 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer no-underline">Say Hello</a>
+          <div className="mt-16 flex text-center justify-center gap-x-6 lg:gap-x-10 text-sm">
             <a href="https://github.com/markryandelarmente" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
               Github <ExternalLinkIcon className="w-4 h-4 inline-block" />
             </a>
