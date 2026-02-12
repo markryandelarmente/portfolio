@@ -310,15 +310,15 @@ export default function Home() {
           <h2 className="text-3xl font-semibold leading-12">Let's create awesome products!</h2>
           <p className="text-secondary-foreground mt-2 leading-8">I'm always open to discuss your project, improve your online presence, or build your next big idea.</p>
           <a href="mailto:markryandelarmente104@gmail.com" className="mt-14 inline-block px-10 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer no-underline">Say Hello</a>
-          <div className="mt-16 flex text-center justify-center gap-x-10">
-            <a href="https://github.com/markryandelarmente" target="_blank" rel="noopener noreferrer">
-              Github <ExternalLinkIcon className="w-4 h-4 inline-block ml-2" />
+          <div className="mt-16 flex text-center justify-center lg:gap-x-10">
+            <a href="https://github.com/markryandelarmente" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
+              Github <ExternalLinkIcon className="w-4 h-4 inline-block ml-1" />
             </a>
-            <a href="https://www.linkedin.com/in/mark-ryan-delarmente" target="_blank" rel="noopener noreferrer">
-              LinkedIn <ExternalLinkIcon className="w-4 h-4 inline-block ml-2" />
+            <a href="https://www.linkedin.com/in/mark-ryan-delarmente" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
+              LinkedIn <ExternalLinkIcon className="w-4 h-4 inline-block ml-1" />
             </a>
-            <a href="https://www.linkedin.com/in/mark-ryan-delarmente" target="_blank" rel="noopener noreferrer">
-              Twitter <ExternalLinkIcon className="w-4 h-4 inline-block ml-2" />
+            <a href="https://www.linkedin.com/in/mark-ryan-delarmente" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
+              Twitter <ExternalLinkIcon className="w-4 h-4 inline-block ml-1" />
             </a>
           </div>
         </section>
