@@ -271,7 +271,7 @@ export default function Home() {
             <h2 className="text-3xl font-semibold leading-12">Projects</h2>
             {/* <span className="flex items-center gap-x-2 text-sm font-semibold hover:text-primary transition-colors duration-300 cursor-pointer">See All <ArrowRightIcon className="w-4 h-4" /></span> */}
           </div>
-          <p className="text-secondary-foreground text-sm mt-2">Here are my personal projects that I have worked on. Company owned projects are not listed due to policies and restrictions.</p>
+          <p className="text-secondary-foreground text-sm mt-2">Here are my personal projects that I have worked on. Other projects are not listed due to company rules and policies.</p>
           <div className="mt-8 grid gap-4 grid-cols-1 md:gap-6">
             {portfolio.map((portfolio, index) => (
               <div key={index} className="group rounded-xl overflow-hidden relative bg-transparent border border-[#18264f] hover:border-primary transition-colors duration-300 md:flex">
