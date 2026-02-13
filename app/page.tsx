@@ -223,8 +223,8 @@ export default function Home() {
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <h2 className="text-3xl font-semibold leading-12">About Me</h2>
-          <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">{yearsOfExperience}+ years</span> of experience developing scalable and reliable web applications. I specialize in both front-end and back-end development using modern technologies, with a strong focus on performance, user experience, and clean architecture.</p>
-          <p className="leading-8 mt-8">I’m passionate about building software that not only works well but genuinely solves problems and creates real value for users.</p>
+          <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">{yearsOfExperience}+ years</span> of experience developing scalable and secured web applications. I worked across various technologies and roles in both front-end and back-end development, with a strong focus on performance, user experience, and clean architecture.</p>
+          <p className="leading-8 mt-8">I’m passionate about building software that not only works well but really solves problems and creates real value for users.</p>
           <button className="mt-8 px-4 py-2 text-sm bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer">Download Resume <ArrowDownIcon className="w-4 h-4 inline-block" /></button>
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
@@ -268,14 +268,14 @@ export default function Home() {
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-semibold leading-12">Portfolio</h2>
+            <h2 className="text-3xl font-semibold leading-12">Projects</h2>
             {/* <span className="flex items-center gap-x-2 text-sm font-semibold hover:text-primary transition-colors duration-300 cursor-pointer">See All <ArrowRightIcon className="w-4 h-4" /></span> */}
           </div>
           <p className="text-secondary-foreground text-sm mt-2">Here are my personal projects that I have worked on. Company owned projects are not listed due to policies and restrictions.</p>
-          <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4 grid-cols-1">
+          <div className="mt-8 grid gap-4 grid-cols-1 md:gap-6">
             {portfolio.map((portfolio, index) => (
-              <div key={index} className="group rounded-xl overflow-hidden relative bg-transparent border border-[#18264f] hover:border-primary transition-colors duration-300">
-                <div className="aspect-video w-full overflow-hidden rounded-t-xl min-h-48 relative">
+              <div key={index} className="group rounded-xl overflow-hidden relative bg-transparent border border-[#18264f] hover:border-primary transition-colors duration-300 md:flex">
+                <div className="aspect-video w-full overflow-hidden rounded-t-xl min-h-48 relative md:max-w-1/2 md:min-w-1/2 md:rounded-xl">
                   <Image src={portfolio.bannerImage} alt={portfolio.title} width={600} height={338} className="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center gap-4">
                     {
@@ -308,6 +308,7 @@ export default function Home() {
                 <div className="p-6 lg:p-4">
                   <h4 className="text-base font-semibold lg:text-sm">{portfolio.title}</h4>
                   <p className="text-secondary-foreground text-sm mt-2 lg:text-[18px]">{portfolio.description}</p>
+                  <p className="text-secondary-foreground text-sm mt-4 lg:text-[18px]">{portfolio.technologies.map((technology) => technology.name).join(", ")}</p>
                 </div>
               </div>
             ))}
