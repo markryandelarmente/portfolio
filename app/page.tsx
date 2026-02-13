@@ -138,7 +138,7 @@ export default function Home() {
       title: "eAccess",
       url: "https://eaccessph.com",
       github: "",
-      bannerImage: "/portfolio/eaccess3.png",
+      bannerImage: "/portfolio/eaccess.png",
       description: "A B2B travel booking platform for agencies to manage their bookings and customers.",
       technologies: [
         { name: "TypeScript", logo: "/skills/typescript.png" },
