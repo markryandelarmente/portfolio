@@ -154,6 +154,25 @@ export default function Home() {
       ],
     },
     {
+      title: "Full Stack Starter Kit",
+      url: "",
+      github: "https://github.com/markryandelarmente/full-stack-starter-kit",
+      bannerImage: "/portfolio/full-stack-starter-kit.png",
+      description: "A starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
+      technologies: [
+        { name: "Monorepo", logo: "/skills/monorepo.png" },
+        { name: "TypeScript", logo: "/skills/typescript.png" },
+        { name: "Next.js", logo: "/skills/next.js.png" },
+        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
+        { name: "Node/Express", logo: "/skills/node.png" },
+        { name: "Postgres", logo: "/skills/postgres.png" },
+        { name: "Redis", logo: "/skills/redis.png" },
+        { name: "Docker", logo: "/skills/docker.png" },
+        { name: "Stripe", logo: "/skills/stripe.png" },
+        { name: "S3 Bucket", logo: "/skills/s3.png" },
+      ],
+    },
+    {
       title: "Blog CMS",
       url: "https://markryand.com",
       github: "",
@@ -200,26 +219,7 @@ export default function Home() {
         { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
         { name: "TypeScript", logo: "/skills/typescript.png" },
       ],
-    },
-    {
-      title: "Full Stack Starter Kit",
-      url: "https://markryand.com",
-      github: "",
-      bannerImage: "/portfolio/project.webp",
-      description: "A starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
-      technologies: [
-        { name: "Monorepo", logo: "/skills/monorepo.png" },
-        { name: "TypeScript", logo: "/skills/typescript.png" },
-        { name: "Next.js", logo: "/skills/next.js.png" },
-        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
-        { name: "Node/Express", logo: "/skills/node.png" },
-        { name: "Postgres", logo: "/skills/postgres.png" },
-        { name: "Redis", logo: "/skills/redis.png" },
-        { name: "Docker", logo: "/skills/docker.png" },
-        { name: "Stripe", logo: "/skills/stripe.png" },
-        { name: "S3 Bucket", logo: "/skills/s3.png" },
-      ],
-    },
+    }
   ]
 
   return (
@@ -300,7 +300,7 @@ export default function Home() {
                           className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-lg border border-white/20 transition-colors duration-200"
                         >
                           <Github className="w-5 h-5 text-white" />
-                          <span className="text-white text-[16px] font-medium">GitHub</span>
+                          <span className="text-white text-[16px] font-medium">View Source Code</span>
                         </a>
                       )
                     }
