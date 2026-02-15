@@ -163,7 +163,7 @@ export default function Home() {
       url: "",
       github: "https://github.com/markryandelarmente/full-stack-starter-kit",
       bannerImage: "/portfolio/full-stack-starter-kit.png",
-      description: "An AI driven starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
+      description: "An AI-driven starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
       technologies: [
         { name: "Monorepo", logo: "/skills/monorepo.png" },
         { name: "TypeScript", logo: "/skills/typescript.png" },
