@@ -42,8 +42,9 @@ export default function Home() {
       technologies: [
         { name: "JavaScript", logo: "/skills/javascript.png" },
         { name: "TypeScript", logo: "/skills/typescript.png" },
-        { name: "ReactJS / NextJS", logo: "/skills/react.png" },
-        { name: "VueJS", logo: "/skills/vue.png" },
+        { name: "React", logo: "/skills/react.png" },
+        { name: "Vue", logo: "/skills/vue.png" },
+        { name: "NextJS", logo: "/skills/next.png" },
         { name: "Tailwind CSS", logo: "/skills/tailwind.png" },
         { name: "Figma", logo: "/skills/figma.png" },
       ]
@@ -52,7 +53,7 @@ export default function Home() {
       name: "Backend Development",
       logo: "/skills/backend.png",
       technologies: [
-        { name: "NodeJS", logo: "/skills/node.png" },
+        { name: "Node", logo: "/skills/node.png" },
         {
           name: "MySQL",
           logo: "/skills/mysql.png",
@@ -142,7 +143,7 @@ export default function Home() {
       description: "A B2B travel booking platform for agencies to manage their bookings and customers.",
       technologies: [
         { name: "TypeScript", logo: "/skills/typescript.png" },
-        { name: "ReactJS/Vite", logo: "/skills/next.js.png" },
+        { name: "React/Vite", logo: "/skills/next.js.png" },
         { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
         { name: "Shadcn UI", logo: "/skills/shadcn.png" },
         { name: "Node/Express", logo: "/skills/node.png" },
@@ -158,11 +159,11 @@ export default function Home() {
       url: "",
       github: "https://github.com/markryandelarmente/full-stack-starter-kit",
       bannerImage: "/portfolio/full-stack-starter-kit.png",
-      description: "A starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
+      description: "An AI driven starter kit for full-stack apps to build web and mobile applications quickly with pre-built components and features.",
       technologies: [
         { name: "Monorepo", logo: "/skills/monorepo.png" },
         { name: "TypeScript", logo: "/skills/typescript.png" },
-        { name: "Next.js", logo: "/skills/next.js.png" },
+        { name: "Next", logo: "/skills/next.js.png" },
         { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
         { name: "Node/Express", logo: "/skills/node.png" },
         { name: "Postgres", logo: "/skills/postgres.png" },
@@ -173,53 +174,68 @@ export default function Home() {
       ],
     },
     {
-      title: "Blog CMS",
-      url: "https://markryand.com",
+      title: "Capfrance",
+      url: "https://capfrance-vacances.com",
       github: "",
-      bannerImage: "/portfolio/project2.webp",
-      description: "My personal portfolio website built with Next.js, Tailwind CSS, and TypeScript.",
+      bannerImage: "/portfolio/capfrance.png",
+      description: "A booking platform for village/hotel owners to manage their bookings and customers.",
       technologies: [
-        { name: "Next.js", logo: "/skills/next.js.png" },
-        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
-        { name: "TypeScript", logo: "/skills/typescript.png" },
+        { name: "Vue", logo: "/skills/vue.png" },
+        { name: "Laravel", logo: "/skills/laravel.png" },
+        { name: "MySQL", logo: "/skills/mysql.png" },
+        { name: "Redis", logo: "/skills/redis.png" },
+        { name: "Linux", logo: "/skills/linux.png" },
+        { name: "AWS EC2", logo: "/skills/aws-ec2.png" },
       ],
     },
-    {
-      title: "Apartment Finder System",
-      url: "https://markryand.com",
-      github: "",
-      bannerImage: "/portfolio/project3.webp",
-      description: "My personal portfolio website built with Next.js, Tailwind CSS, and TypeScript.",
-      technologies: [
-        { name: "Next.js", logo: "/skills/next.js.png" },
-        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
-        { name: "TypeScript", logo: "/skills/typescript.png" },
-      ],
-    },
-    {
-      title: "Board Takers",
-      url: "https://markryand.com",
-      github: "",
-      bannerImage: "/portfolio/project.webp",
-      description: "A platform for aspiring professionals to prepare for their board exams.",
-      technologies: [
-        { name: "Next.js", logo: "/skills/next.js.png" },
-        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
-        { name: "TypeScript", logo: "/skills/typescript.png" },
-      ],
-    },
-    {
-      title: "ezStore",
-      url: "https://markryand.com",
-      github: "",
-      bannerImage: "/portfolio/project.webp",
-      description: "A platform for small businesses to create and manage online e-commerce stores.",
-      technologies: [
-        { name: "Next.js", logo: "/skills/next.js.png" },
-        { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
-        { name: "TypeScript", logo: "/skills/typescript.png" },
-      ],
-    }
+    // {
+    //   title: "Blog CMS",
+    //   url: "https://markryand.com",
+    //   github: "",
+    //   bannerImage: "/portfolio/project2.webp",
+    //   description: "My personal portfolio website built with Next.js, Tailwind CSS, and TypeScript.",
+    //   technologies: [
+    //     { name: "Next.js", logo: "/skills/next.js.png" },
+    //     { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
+    //     { name: "TypeScript", logo: "/skills/typescript.png" },
+    //   ],
+    // },
+    // {
+    //   title: "Apartment Finder System",
+    //   url: "https://markryand.com",
+    //   github: "",
+    //   bannerImage: "/portfolio/project3.webp",
+    //   description: "My personal portfolio website built with Next.js, Tailwind CSS, and TypeScript.",
+    //   technologies: [
+    //     { name: "Next.js", logo: "/skills/next.js.png" },
+    //     { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
+    //     { name: "TypeScript", logo: "/skills/typescript.png" },
+    //   ],
+    // },
+    // {
+    //   title: "Board Takers",
+    //   url: "https://markryand.com",
+    //   github: "",
+    //   bannerImage: "/portfolio/project.webp",
+    //   description: "A platform for aspiring professionals to prepare for their board exams.",
+    //   technologies: [
+    //     { name: "Next.js", logo: "/skills/next.js.png" },
+    //     { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
+    //     { name: "TypeScript", logo: "/skills/typescript.png" },
+    //   ],
+    // },
+    // {
+    //   title: "ezStore",
+    //   url: "https://markryand.com",
+    //   github: "",
+    //   bannerImage: "/portfolio/project.webp",
+    //   description: "A platform for small businesses to create and manage online e-commerce stores.",
+    //   technologies: [
+    //     { name: "Next.js", logo: "/skills/next.js.png" },
+    //     { name: "Tailwind CSS", logo: "/skills/tailwind.css.png" },
+    //     { name: "TypeScript", logo: "/skills/typescript.png" },
+    //   ],
+    // }
   ]
 
   return (
@@ -329,8 +345,8 @@ export default function Home() {
           </div>
         </section>
         <section className="py-10 lg:py-16 text-center">
-          <h2 className="text-3xl font-semibold leading-12">Let's create awesome products!</h2>
-          <p className="text-secondary-foreground mt-2 leading-8">I'm always open to discuss your project, improve your online presence, or build your next big idea.</p>
+          <h2 className="text-3xl font-semibold leading-12">Let&apos;s create awesome products!</h2>
+          <p className="text-secondary-foreground mt-2 leading-8">I&apos;m always open to discuss your project, improve your online presence, or build your next big idea.</p>
           <a href="mailto:markryandelarmente104@gmail.com" className="mt-14 inline-block text-sm px-10 py-2 bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer no-underline">Say Hello</a>
           <div className="mt-16 flex text-center justify-center gap-x-6 lg:gap-x-10 text-sm">
             <a href="https://github.com/markryandelarmente" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
