@@ -119,7 +119,7 @@ export default function Home() {
       ]
     },
     {
-      name: "AI Agents & Automation Tools",
+      name: "AI-Assisted Development & Automation Tools",
       logo: "/skills/tools.png",
       technologies: [
         {
