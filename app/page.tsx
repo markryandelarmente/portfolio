@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDownIcon, ArrowUpRightIcon, ExternalLinkIcon, Github } from "lucide-react";
+import { ArrowUpRightIcon, ExternalLinkIcon, Github } from "lucide-react";
 
 export default function Home() {
 
@@ -293,7 +293,7 @@ export default function Home() {
                       <div className="w-10 h-10 shrink-0 overflow-hidden">
                         <Image src={technology.logo ? technology.logo : "/vercel.svg"} alt={technology.name} width={100} height={100} className="w-full h-full p-0 object-contain" />
                       </div>
-                      <p className="text-white text-sm" key={index}>{technology.name}</p>
+                      <p className="text-foreground text-sm dark:text-white" key={index}>{technology.name}</p>
                     </div>
                   ))}
                 </div>
