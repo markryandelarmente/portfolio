@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDownIcon, ExternalLinkIcon, Github } from "lucide-react";
+import { ArrowDownIcon, ArrowUpRightIcon, ExternalLinkIcon, Github } from "lucide-react";
 
 export default function Home() {
 
@@ -257,9 +257,10 @@ export default function Home() {
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <h2 className="text-3xl font-semibold leading-12">About Me</h2>
-          <p className="leading-8 mt-4">I’m Mark Ryan, a full-stack software engineer from Calbayog City, Philippines, with <span className="font-semibold">{yearsOfExperience}+ years</span> of experience developing scalable and secured web applications. I worked across various technologies and roles in both front-end and back-end development, with a strong focus on performance, user experience, and clean architecture.</p>
-          <p className="leading-8 mt-8">I’m passionate about building software that not only works well but really solves problems and creates real value for users.</p>
-          <button className="mt-8 px-4 py-2 text-sm bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer">Download Resume <ArrowDownIcon className="w-4 h-4 inline-block" /></button>
+          <p className="leading-8 mt-4">I&apos;m a full-stack software engineer with {yearsOfExperience}+ years building production systems that solve real business problems. Based in Calbayog City, Philippines, I&apos;ve worked with companies from local startups to international companies, shipping features that improve both user experience and system performance metrics.</p>
+          <p className="leading-8 mt-8">I specialize in the full development lifecycle—from architecting scalable backends to crafting responsive frontends—with a particular focus on performance optimization and clean, maintainable code. I&apos;m involved in features from initial planning through implementation and long-term maintenance—whether that&apos;s optimizing performance, modernizing legacy systems, or building new platforms. My guiding principle: create the most value with the least complexity.</p>
+          <p className="leading-8 mt-8">I&apos;m currently seeking my next opportunity where I can bring this impact-driven approach to a team building products that matter. I&apos;m particularly interested in roles that challenge me across the full stack and value clean engineering practices.</p>
+          <a href="https://drive.google.com/file/d/14NgQVVguzwyQxFmV0iSyK2rfQzkGwxl6/view" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center gap-2 px-4 py-2 text-sm bg-primary text-white rounded-md hover:bg-primary/80 transition-colors duration-300 cursor-pointer no-underline">View Resume <ArrowUpRightIcon className="w-4 h-4" /></a>
         </section>
         <section className="py-10 lg:py-16 border-[#18264f] lg:border-b">
           <h2 className="text-3xl font-semibold leading-12">Experience</h2>
