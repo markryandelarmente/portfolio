@@ -119,7 +119,7 @@ export default function Home() {
       ]
     },
     {
-      name: "AI Agents & Tools",
+      name: "AI Agents & Automation Tools",
       logo: "/skills/tools.png",
       technologies: [
         {
@@ -129,6 +129,10 @@ export default function Home() {
         {
           name: "Cursor",
           logo: "/skills/cursor.png",
+        },
+        {
+          name: "n8n workflow",
+          logo: "/skills/n8n.png",
         },
       ]
     },
